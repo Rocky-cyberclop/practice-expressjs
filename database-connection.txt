@@ -1,0 +1,1 @@
+uri_database="mongodb+srv://rockyoperation:992002@cluster0.rlvcrj7.mongodb.net/"

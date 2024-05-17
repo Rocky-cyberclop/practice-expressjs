@@ -19,8 +19,12 @@ const UserSchema = new mongoose.Schema({
         type: [String],
         default: [],
     },
-    isActive: {
+    activeYn: {
         type: String,
+        enum: {
+            values: ['Y', 'N'],
+            message: 'Value must is Y or N',
+        },
         default: 'Y',
     },
 });
