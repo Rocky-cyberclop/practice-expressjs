@@ -14,7 +14,7 @@ services:
       - mongo-data:/data/db
 
   app:
-    image: hao-node-app:3.2
+    image: rockyoperation/hao-node-app:3.2
     ports:
       - 3000:3009
     environment:
