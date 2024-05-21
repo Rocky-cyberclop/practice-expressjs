@@ -16,7 +16,7 @@ router(app);
 async function startServer() {
     try {
         await connectDB(process.env.DATABASE_URI); //URI can be found in database-connection.txt
-        const PORT = process.env.PORT || 5000;
+        const PORT = process.env.PORT || 3009;
         app.listen(PORT, () => {
             console.log(
                 `Server is running at port ${PORT}`,
